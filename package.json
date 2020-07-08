@@ -1,0 +1,33 @@
+{
+  "name": "b-cli",
+  "version": "0.0.1",
+  "description": "template's cli",
+  "main": "index.js",
+  "bin": {
+    "bcli": "./"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LamWaiBen/b-cli.git"
+  },
+  "keywords": [
+    "cli"
+  ],
+  "author": "lamwaiben",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LamWaiBen/b-cli/issues"
+  },
+  "homepage": "https://github.com/LamWaiBen/b-cli#readme",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "commander": "^5.1.0",
+    "download-git-repo": "^3.0.2",
+    "inquirer": "^7.3.0",
+    "ora": "^4.0.4",
+    "rimraf": "^3.0.2"
+  }
+}
